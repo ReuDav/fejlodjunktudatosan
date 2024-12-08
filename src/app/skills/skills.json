@@ -1,0 +1,55 @@
+{
+  "frontend": [
+    { "icon": "angularjs-original.svg", "description": "AngularJS" },
+    { "icon": "bootstrap-original.svg", "description": "Bootstrap" },
+    { "icon": "css3-original.svg", "description": "CSS3" },
+    { "icon": "html5-original.svg", "description": "HTML5" },
+    { "icon": "javascript-original.svg", "description": "JavaScript" },
+    { "icon": "json-original.svg", "description": "JSON" },
+    { "icon": "materialui-original.svg", "description": "Material UI" },
+    { "icon": "react-original.svg", "description": "React Native" },
+    { "icon": "react-original-wordmark.svg", "description": "React" },
+    { "icon": "reactbootstrap-original.svg", "description": "React Bootstrap" },
+    { "icon": "sass-original.svg", "description": "Sass" },
+    { "icon": "svelte-original.svg", "description": "Svelte" },
+    { "icon": "tailwindcss-original.svg", "description": "TailwindCSS" },
+    { "icon": "threejs-original-wordmark.svg", "description": "Three.js" },
+    { "icon": "vitejs-original.svg", "description": "Vite.js" },
+    { "icon": "vuejs-original.svg", "description": "Vue.js" }
+  ],
+  "backend": [
+    { "icon": "androidstudio-original.svg", "description": "Android Studio" },
+    { "icon": "apache-original.svg", "description": "Apache" },
+    { "icon": "bun-original.svg", "description": "Bun" },
+    { "icon": "csharp-original.svg", "description": "C#" },
+    { "icon": "kotlin-original.svg", "description": "Kotlin" },
+    { "icon": "laravel-original.svg", "description": "Laravel" },
+    { "icon": "mysql-original-wordmark.svg", "description": "MySQL" },
+    { "icon": "nextjs-original.svg", "description": "Next.js" },
+    { "icon": "nginx-original.svg", "description": "Nginx" },
+    { "icon": "nodejs-original-wordmark.svg", "description": "Node.js" },
+    { "icon": "nuxtjs-original.svg", "description": "Nuxt" },
+    { "icon": "php-original.svg", "description": "PHP" },
+    { "icon": "postgresql-original.svg", "description": "PostgreSQL" },
+    { "icon": "typescript-original.svg", "description": "TypeScript" }
+  ],
+  "design": [
+    { "icon": "canva-original.svg", "description": "Canva" },
+    { "icon": "figma-original.svg", "description": "Figma" }
+  ],
+  "devops": [
+    { "icon": "docker-plain-wordmark.svg", "description": "Docker" },
+    { "icon": "git-original.svg", "description": "Git" },
+    { "icon": "github-original-wordmark.svg", "description": "GitHub" },
+    { "icon": "gitlab-original.svg", "description": "GitLab" },
+    { "icon": "ubuntu-original-wordmark.svg", "description": "Ubuntu" },
+    { "icon": "yarn-original.svg", "description": "Yarn" }
+  ],
+  "tools": [
+    { "icon": "jira-original-wordmark.svg", "description": "Jira" },
+    { "icon": "phpstorm-original.svg", "description": "PhpStorm" },
+    { "icon": "postman-original.svg", "description": "Postman" },
+    { "icon": "webstorm-original.svg", "description": "WebStorm" },
+    { "icon": "wordpress-original.svg", "description": "WordPress" }
+  ]
+}
