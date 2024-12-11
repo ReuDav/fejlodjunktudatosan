@@ -4,146 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30946e4-85b5-4db9-b776-e964503e0dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/call-to-action.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/canvas.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/experience-list.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/process-carousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/project-card-item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/project-cards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/skill-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/skills-list.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/skills-slider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/satoshi.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/androidstudio-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/apache-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/bun-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/csharp-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/kotlin-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/laravel-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/mysql-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/nextjs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/nginx-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/nodejs-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/nuxtjs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/php-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/postgresql-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/backend/typescript-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/design/canva-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/design/figma-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/devops/docker-plain-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/devops/git-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/devops/github-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/devops/gitlab-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/devops/ubuntu-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/devops/yarn-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/angularjs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/bootstrap-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/css3-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/html5-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/javascript-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/json-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/materialui-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/react-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/react-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/reactbootstrap-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/sass-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/svelte-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/tailwindcss-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/threejs-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/vitejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/frontend/vuejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/tools/jira-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/tools/phpstorm-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/tools/postman-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/tools/webstorm-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/tools/wordpress-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/David.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/projects/animaltrust.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/projects/havalda.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/projects/shopl.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/projects/topin.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/projects/voa.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/skills/skills.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/slider-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/GeistMonoVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/GeistVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    <list default="true" id="9cfafff2-b3ba-43b7-81f5-93cdbbc84f31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/projects/hellowine.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/project-cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/project-cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skills-slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills-slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/projects/voa.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/projects/voa.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="TypeScript JSX File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2p9UtIxKlvga88Kvb47C6H24HYX" />
+  <component name="ProjectId" id="2q1B9iMgwF57aZmKP9D2Emn9oRt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/futyi/Documents/GitHub/fejlodjunktudatosan/public/assets/fonts&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\futyi\\Documents\\GitHub\\fejlodjunktudatosan\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\futyi\\Documents\\GitHub\\fejlodjunktudatosan\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\fonts" />
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\images\projects" />
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\icons" />
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\icons\frontend" />
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\icons\tools" />
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\icons\devops" />
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\icons\design" />
-      <recent name="C:\Users\futyi\Documents\GitHub\fejlodjunktudatosan\public\assets\icons\backend" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -154,28 +56,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c30946e4-85b5-4db9-b776-e964503e0dcb" name="Changes" comment="" />
-      <created>1732177997433</created>
+      <changelist id="9cfafff2-b3ba-43b7-81f5-93cdbbc84f31" name="Changes" comment="" />
+      <created>1733820053627</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1732177997433</updated>
-      <workItem from="1732177998593" duration="7216000" />
-      <workItem from="1732350261813" duration="9930000" />
-      <workItem from="1732379857765" duration="5643000" />
-      <workItem from="1732481689564" duration="581000" />
-      <workItem from="1732482593568" duration="4189000" />
-      <workItem from="1732614847536" duration="2632000" />
-      <workItem from="1732652957700" duration="1233000" />
-      <workItem from="1732715624787" duration="1615000" />
-      <workItem from="1733172206702" duration="1421000" />
-      <workItem from="1733173746439" duration="2701000" />
-      <workItem from="1733249947158" duration="4113000" />
-      <workItem from="1733285557453" duration="13654000" />
-      <workItem from="1733342371664" duration="6368000" />
-      <workItem from="1733391218798" duration="2082000" />
-      <workItem from="1733573558942" duration="6958000" />
-      <workItem from="1733601136521" duration="3831000" />
-      <workItem from="1733686799574" duration="1353000" />
+      <updated>1733820053627</updated>
+      <workItem from="1733820055296" duration="3796000" />
+      <workItem from="1733909577811" duration="570000" />
     </task>
     <servers />
   </component>
