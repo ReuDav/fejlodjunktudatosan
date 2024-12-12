@@ -6,6 +6,19 @@
     font-style: normal;
     src: url('/assets/fonts/satoshi.otf');
 }
+
 * {
     font-family: 'Satoshi', sans-serif;
+}
+
+.grid-menu {
+    transition: all .5s ease;
+    grid-template-rows: 0fr;
+    display: grid;
+    height: 0;
+}
+
+.open {
+    grid-template-rows: 1fr;
+    height: calc(100vh - 80px);
 }
