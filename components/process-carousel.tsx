@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import React, {useRef} from "react";
 import "@/app/slider-styles.css";
-import { useKeenSlider, KeenSliderInstance } from "keen-slider/react";
+import {KeenSliderInstance, useKeenSlider} from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
 const ProcessSlider = () => {
@@ -68,8 +68,8 @@ const ProcessSlider = () => {
 
     return (
         <section className="pb-20">
-            <div className="container mx-auto">
-                <div>
+            <div className="container mx-auto px-4">
+                <div className="my-6">
                     <h2 className="text-3xl my-4 leading-[1.4em]">Folyamat</h2>
                     <p className="text-[24px] text-[#00000080] font-normal lg:w-3/4 leading-[1.4em]">
                         Ötlettől, tervezéstől a megvalósításig. A legújabb keretrendszerek és jól bevált módszerek
@@ -77,23 +77,46 @@ const ProcessSlider = () => {
                     </p>
                 </div>
             </div>
-            <div
-                ref={sliderRef}
-                className="keen-slider my-8"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-            >
-                {allSteps.map(({ title, description }, index) => (
-                    <div key={index} className="space-y-4 p-8 bg-[#CCE7F8] rounded-2xl relative keen-slider__slide">
-                        <div className="relative z-20">
-                            <div>
-                                <h3 className="text-xl mb-2 font-bold text-[#3f6c88]">{title}</h3>
+            <div className="md:block hidden">
+                <div
+                    ref={sliderRef}
+                    className="keen-slider my-8"
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                >
+                    {allSteps.map(({title, description}, index) => (
+                        <div key={index} className="space-y-4 p-8 bg-[#CCE7F8] rounded-2xl relative keen-slider__slide">
+                            <div className="relative z-20">
+                                <div>
+                                    <h3 className="text-xl mb-2 font-bold text-[#3f6c88]">{title}</h3>
+                                </div>
+                                <div className="text-md mb-10 text-[#00000080]">{description}</div>
                             </div>
-                            <div className="text-md mb-10 text-[#00000080]">{description}</div>
+                            <div
+                                className="absolute !font-thin text-gray-800/10 z-10 -bottom-6 text-8xl">0{index + 1}</div>
                         </div>
-                        <div className="absolute !font-thin text-gray-800/10 z-10 -bottom-6 text-8xl">0{index + 1}</div>
+                    ))}
+                </div>
+            </div>
+            <div className="relative md:hidden">
+                {allSteps.map(({title, description}, index) => (
+                    <React.Fragment key={index}>
+                    <div
+                         className="space-y-4 p-8 bg-[#CCE7F8] mx-auto z-10 max-h-[320px] min-h-[320px] rounded-2xl relative sticky top-[20%] overflow-hidden">
+                        <div>
+                            <div className="relative z-20">
+                                <div>
+                                    <h3 className="text-xl mb-2 font-bold text-[#3f6c88]">{title}</h3>
+                                </div>
+                                <div className="text-md mb-10 text-[#00000080]">{description}</div>
+                            </div>
+                            <div
+                                className="absolute !font-thin text-gray-800/10 z-10 -bottom-6 text-8xl">0{index + 1}</div>
+                        </div>
                     </div>
-                ))}
+                    <div id={`gap-${index}`} className="h-[100px]"></div>
+                    </React.Fragment>
+            ))}
             </div>
         </section>
     );

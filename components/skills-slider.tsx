@@ -12,8 +12,13 @@ export default function SkillsSlider() {
         loop: true,
         renderMode: "performance",
         drag: false,
-        slides: {
-            perView: 8,
+        breakpoints: {
+            "(min-width: 768px)": {
+                slides: { perView: 8, spacing: 5 },
+            },
+            "(max-width: 450px)": {
+                slides: { perView: 6, spacing: 15 },
+            },
         },
         created(s) {
             s.moveToIdx(5, true, animation);

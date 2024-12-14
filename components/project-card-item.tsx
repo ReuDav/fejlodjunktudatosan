@@ -4,6 +4,7 @@ import Link from "next/link";
 type ProjectCardItemProps = {
     title: string;
     description: string;
+    mobileDescription: string;
     imagePath: string;
     link: string;
     buttonText: string;
@@ -14,6 +15,7 @@ type ProjectCardItemProps = {
 const ProjectCardItem: React.FC<ProjectCardItemProps> = ({
                                                              title,
                                                              description,
+                                                             mobileDescription,
                                                              imagePath,
                                                              link,
                                                              buttonText,
@@ -24,11 +26,12 @@ const ProjectCardItem: React.FC<ProjectCardItemProps> = ({
         <>
             <div id="card-1"
                  className={`sticky ${backgroundColor} rounded-3xl top-[20%] mx-auto container min-h-[360px] shadow-md flex items-center justify-center z-10`}>
-                <div className="grid grid-cols-[2fr_1fr] gap-4 p-10">
+                <div className="grid md:grid-cols-[2fr_1fr] gap-4 p-10">
                     <div className="flex flex-col gap-4 items-start">
-                        <h1 className="text-[24px] leading-[1.4em]">{title}</h1>
-                        <p className=" text-[#00000080] leading-[1.6em]">{description}</p>
-                        <button className="mt-auto bg-black py-2 px-3 rounded-2xl text-white"><Link target="_blank"
+                        <h1 className="md:text-[24px] text-[20px] leading-[1.4em]">{title}</h1>
+                        <p className="md:block hidden md:text-[16px] leading-[1.6em] text-[#00000080] leading-[1.6em]">{description}</p>
+                        <p className="md:hidden text-[#00000080] leading-[1.6em]">{mobileDescription}</p>
+                        <button className="md:block hidden mt-auto bg-black py-2 px-3 rounded-2xl text-white"><Link target="_blank"
                                                                                                     href={link && link}>{buttonText || "Megtekintem a honlapot"}</Link>
                         </button>
                     </div>

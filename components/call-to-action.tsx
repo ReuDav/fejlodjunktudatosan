@@ -4,7 +4,7 @@ import {ArrowDownOnSquareStackIcon, PhoneIcon} from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 export default function CallToAction() {
-    return (<section className="relative w-full h-screen top-20">
+    return (<section className="relative w-full h-screen top-20" id="CallToAction">
         <div id="Overlay" className="absolute z-40 inset-0 max-h-[calc(100vh_-_80px)] flex flex-col items-center space-y-6 justify-center">
             <div className="relative w-full flex flex-col items-center">
                 <Image src="/assets/images/David.webp" alt="David" width={125} height={125}
