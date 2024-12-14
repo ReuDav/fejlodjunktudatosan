@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfafff2-b3ba-43b7-81f5-93cdbbc84f31" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/call-to-action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/call-to-action.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/experience-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/experience-list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/process-carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/process-carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/project-card-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/project-card-item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/project-cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/project-cards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/skills-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills-list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/skills-slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills-slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-    </list>
+    <list default="true" id="9cfafff2-b3ba-43b7-81f5-93cdbbc84f31" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +58,7 @@
       <workItem from="1733916275812" duration="12801000" />
       <workItem from="1734175232799" duration="3730000" />
       <workItem from="1734179517331" duration="1153000" />
-      <workItem from="1734198409584" duration="4785000" />
+      <workItem from="1734198409584" duration="4892000" />
     </task>
     <servers />
   </component>
