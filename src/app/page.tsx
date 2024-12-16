@@ -12,10 +12,10 @@ export default function Home() {
         <main className="min-h-screen">
             <CallToAction/>
             <SkillsSlider/>
+            <ExperienceList />
             <ProjectCard/>
             <ProcessCarousel/>
             <SkillList skills={["Frontend fejlesztés", "Backend fejlesztés", "UI dizájn", "UX tervezés", "Tesztelés", "Mentorálás", "Tanítás", "Ügyfél-orientált kommunikáció"]} />
-            <ExperienceList />
         </main>
     );
 }
